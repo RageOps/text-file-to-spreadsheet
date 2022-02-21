@@ -29,7 +29,7 @@ for key in file:
         for data in value:
             keyboard.type(str(value[data]))
             DoTab()
-            time.sleep(0.075) # Good idea to sleep the program so that things don't break
+            time.sleep(0.1) # Good idea to sleep the program so that things don't break
             continue
         DoEnter()
         continue
